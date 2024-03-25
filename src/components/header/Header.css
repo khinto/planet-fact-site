@@ -1,0 +1,74 @@
+header{
+
+    width: 100%;
+    background-color: #070724;
+    color:#fff;}
+
+.header{
+    
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding:0 auto;
+
+    }
+
+.logo a h2{
+        
+        color:#fff;
+        cursor: pointer;
+       
+        padding: 1rem;
+        margin: 2rem;
+
+    }
+
+nav{
+        
+        display: flex;
+        justify-content: space-between;
+        
+        margin: 1rem;
+        
+    }
+.header-right{
+        
+        display: flex;
+        justify-content: space-between;
+       
+
+    }
+
+.active{
+    text-decoration: underline;
+    color:red
+
+   }
+    
+
+a{
+        color:#fff;
+        text-decoration: none;
+        padding: 1rem;
+        margin: 1rem;
+
+    }
+
+    
+
+
+
+.body-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust as needed */
+    grid-gap: 1rem; /* Spacing between grid items */
+}
+
+@media (min-width :2500px){
+    .header{
+        
+        
+        margin:  0 8rem;
+    }
+}
+
