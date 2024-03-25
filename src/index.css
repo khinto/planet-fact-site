@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-y: hidden; */
+  font-family: "League Spartan";
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+
+
+.about{
+    width: 20%;
+}
+
+
+.tabs{
+    border: 1px black solid;
+
+}
+
+.tabs:hover{
+    background-color: rgb(255, 0, 144);
+}
+
+a,h1,p{
+    color: white;
+}
+a{
+    color: rgb(224, 222, 232);
+}
+
+.geology{
+    width: 50%;
+    position: relative;
+    left:5rem;
+    top:-3rem
+    
+}
+
+li:focus{
+    color: blueviolet;
+    background-color: brown;
+    margin-top: 10px;
+}
+#gridmain{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    gap:400px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+}
+
+#testi{
+    background: rgb(12, 0, 22);
+}
