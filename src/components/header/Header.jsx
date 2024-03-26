@@ -8,24 +8,14 @@ import './Header.css';
 
 export const Logo =(
   <div className='logo'>
-    <Link to="/mercury" >
-     <h2>The Planets</h2>
+    <Link to="/" >
+     <h2 className='text-[30px] uppercase tracking-widest'>The Planets</h2>
     </Link>
   </div>
 )
 
 
-
-
-
-
-
-
 const Header = () => {
-
-
-  
-  
 
   return (
     <header>
@@ -44,11 +34,6 @@ const Header = () => {
           <NavLink to={"Uranus"} > Uranus </NavLink>
           <NavLink to={"Neptune"} > Neptune </NavLink>
         </span>
-       
-
-          
-
-
 
         </div>
       

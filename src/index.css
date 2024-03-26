@@ -2,14 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-y: hidden; */
   font-family: "League Spartan";
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  background-image: url('../public/assets/background-stars.svg');
+  background-repeat: repeat;
+  background-color: #070724;
+
 }
 
 

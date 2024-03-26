@@ -12,11 +12,10 @@ const Dashboard = () => {
   
   const {searchplanet, pathname}=useSearchPlanet();
 
- 
 
   return (
     
-    <div className=' bg-[#070724]   min-h-screen' style={{ backgroundImage: `url(${backgroundImg})` }}>
+    <div >
       
       {searchplanet.map((planet) => (
         <div id='gridmain' key={planet.name}>
@@ -32,7 +31,7 @@ const Dashboard = () => {
                   <img src={planet.images.planet } width={400} alt="" />
           </div>
           <div className='flex flex-col gap-2 about'>
-            <h1 className='uppercase font-bold text-[70px]'>{planet.name}</h1>
+            <a href={`${planet.name}`}><h1 className='uppercase font-bold text-[70px]'>{planet.name}</h1></a>
             {/* <p>{planet.overview.content}</p> */}
             <a href={planet.overview.source}>{planet.overview.source}</a>
             {/* <div className='about-tabs'>

@@ -5,7 +5,7 @@ import Tabs from '../Tabs';
 
 
 
-
+//className='bg-[#070724] min-h-screen' style={{ backgroundImage: `url(${backgroundImg})` }}
 
 const Planet = () => {
   const [selectedImage, setSelectedImage] = useState(["planet"]); // Initial image
@@ -23,7 +23,7 @@ const Planet = () => {
 
   return (
     
-    <div className='bg-[#070724] min-h-screen' style={{ backgroundImage: `url(${backgroundImg})` }} >
+    <div>
       
       {searchplanet.map((planet) => (
         <div className='flex  justify-around p-10' key={planet.name}>
